@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Load data
-data = pd.read_csv('2.csv')
+data = pd.read_csv('example.csv')
 
 concepts = np.array(data.iloc[:, 0:-1])
 target = np.array(data.iloc[:, -1])
